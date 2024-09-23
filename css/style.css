@@ -27,7 +27,7 @@ li {
 figure {
     height: 30vh;
     display: grid;
-    grid-template-rows: 85% 15%;
+    grid-template-rows: calc(100% - 2em) 2em;
     border: 5px solid blue;
     border-radius: 35px;
     overflow: hidden;
